@@ -26,8 +26,8 @@ colnames(penguins)
 
 
 ## basic overlay graphic
-ggplot(data=penguins)+
 ```{r save your plot}
+ggplot(data=penguins)+
   geom_smooth(mapping=aes(x=flipper_length_mm,y=body_mass_g,linetype=species))+
   geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g,color=species))
 ```
