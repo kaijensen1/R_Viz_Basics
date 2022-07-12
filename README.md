@@ -1,8 +1,10 @@
 # ggplot Basics
 
 ## Libraries
+```{r}
 library(tidyverse)
 library('palmerpenguins')
+```
 
 ## Basic viz
 ggplot(data=penguins)+
